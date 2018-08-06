@@ -1,0 +1,10 @@
+<h1 class="text-danger text-center">
+
+    Books<small> </small> </h1>
+<hr>
+
+<div class="card-columns">
+
+    <app-targetbook [book]="book" [index]="book.ID" *ngFor="let book of books"></app-targetbook>
+
+</div>

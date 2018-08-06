@@ -1,0 +1,10 @@
+<div class="card animated fadeIn fast">
+    <img class="card-img-top" src="http://picsum.photos/200/300/?image={{book.ID}}" [alt]="book.Title">
+    <div class="card-body card border-danger">
+        <h5 class="text-center text-danger text-monospace">{{ book.Title }}</h5>
+
+        <p class="text-center text-danger"><small class="text-muted">{{ book.PublishDate | date:'y-m-d' }}</small></p>
+
+        <button (click)="seeBook()" type="submit" class="btn btn-outline-danger btn-block">See more...</button>
+    </div>
+</div>
