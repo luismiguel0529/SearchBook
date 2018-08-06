@@ -6,6 +6,3 @@ En este se consumo una api en la cual se realizan las respectivas peticiones par
 
 
 Saludos.
-# SearchBook
-# SearchBook
-# SearchBook
